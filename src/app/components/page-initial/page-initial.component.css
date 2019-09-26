@@ -1,0 +1,12 @@
+.contenedor{
+    background: #000;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;align-items: center;
+}
+
+span {
+    font-size: 4em;
+}
+
