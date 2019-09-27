@@ -1,12 +1,16 @@
 .contenedor{
     background: #000;
-    height: 100vh;
+    height: 700px;
     display: flex;
     flex-direction: column;
     justify-content: center;align-items: center;
 }
 
-span {
+p {
     font-size: 4em;
+    font-weight: bold;
+    margin-top:0;
+    margin-bottom: 0;
+
 }
 
