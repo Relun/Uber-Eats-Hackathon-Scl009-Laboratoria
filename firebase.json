@@ -7,11 +7,18 @@
     "indexes": "firestore.indexes.json"
   },
   "hosting": {
-    "public": "dist/Uber-Eats-Hackathon-Scl009-Laboratoria",
+
+     "public": "dist/Uber-Eats-Hackathon-Scl009-Laboratoria",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
     ]
   }
 }
